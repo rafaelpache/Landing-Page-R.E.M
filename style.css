@@ -1,0 +1,347 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+    }
+
+ html,body{
+ height: 100%;
+ width: 100%;
+
+ }
+
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+
+
+header{
+    padding: 15px;
+    height: 20px 0;
+    background-color: #eeebea;
+}
+
+.logo{
+
+    width: 50%;
+    margin-top:50px
+}
+
+.menu{
+
+    width:50%;
+     text-align: right;
+     margin-top: 100px;
+     flex-wrap: wrap;
+     
+}
+
+#btn-mobile{
+    display:none;
+}
+
+.menu a {
+color: black;
+text-decoration:none;
+font-weight: bold;
+padding:10px;
+margin-top: 100px;
+}
+
+
+ .sobre {
+     background-image: url(background.jpg) ;
+    background-repeat: no-repeat;
+    padding: 24%;
+  
+ }
+
+
+ .botão{
+    margin-left: 60px;
+    Margin-top:100px;
+    padding:20px;
+    Background-color: #eeebea;
+    font-family:HorrorShow;
+    padding:20px 20px;
+    border-radius: 20px;
+    border:none;
+    font-size: 35px;
+    cursor: pointer;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+}
+
+.botão:hover{
+    background-color:#cad4dd ;
+    
+}
+
+.texto-sobre{
+    width:50%;
+    height:100px ;
+    background-color: #eeebea;
+    border-radius:20px;
+    box-shadow:2px 2px 12px rgba(0,0,2,0.3);
+    display:flex;
+    margin: -18% auto 200px auto;
+    position: relative;
+    justify-content:space-evenly ;
+    align-items: center;
+    font-family: horrorshow;
+    font-size: 25px;
+     font-weight: bold;
+}
+
+.loja{
+    display: flex;
+    max-width: 800px;
+    margin-left: 620px;
+    justify-content: space-between;
+    margin-top:-50px;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+  
+    
+}  
+
+div > p:nth-child(2){
+    font-size:30px;
+    margin-left: 55px;
+    font-family: horrorshow ;
+ 
+}
+
+
+
+.preço1{
+    
+    margin-top: -20px;
+    font-size:20px;
+    margin-left: 45px;
+    color: #54718a;
+
+}
+
+.preço2{
+    
+    margin-top: -20px;
+    font-size:20px;
+    margin-left: 45px;
+    color: #54718a;
+
+}
+.nome3{
+    margin-right: 255px;
+    font-size: 5px;
+
+}
+.preço3{
+    margin-top: -20px;
+    font-size:20px;
+    margin-left: 45px;
+    color: #54718a;
+}
+
+
+ .formulario{
+     background-image: url(background2.png);   
+     background-repeat: no-repeat;
+   
+     padding:10%;
+     
+ }
+
+ label,input{
+     padding: 10px;
+     border-radius: 20px;
+     font-size: 20px;
+     font-family: horrorshow;
+     margin-left: 250px;
+     border:0px;
+    
+     
+ }
+
+ .botão2{
+   margin-top: 25px;
+   padding: 10px 30px;
+   border-radius: 10px;
+   border:0px;
+
+ }
+
+ span{
+     color: #54718a;
+     margin-left: 85px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+ .formulario > div:nth-child(1) {
+     font-size:40px ;
+     margin-left: 200px;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-top: -30px;
+ 
+ }
+
+
+.avaliações{
+  display: flex;
+  margin: 480px;
+  justify-content: space-between ;
+  flex-wrap: wrap;
+  width:60%;
+  height:600px ;
+  background-color: #eeebea;
+  border-radius:20px;
+  box-shadow:2px 2px 12px rgba(0,0,2,0.3);
+  display:flex;
+  margin: 18% auto 200px auto;
+  position: relative;
+  justify-content:space-evenly ;
+  align-items: center;
+  font-family: horrorshow;
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+
+.titulo1{
+font-size: 100px;
+font-family: horrorshow;
+margin-left: 700px;
+margin-bottom: -250px;
+color:#eeebea ;
+
+
+}
+
+.titulo2{
+    font-size: 60px;
+    font-family: horrorshow;
+    margin-left: 795px;
+    margin-top: 180px;
+    margin-bottom: -240px;
+    color:#cac9c9 ;
+    
+    }
+
+
+    footer{
+        background-color:#eeebea ;
+        padding:100px;
+    }
+
+    footer> p{
+    font-weight: bold;
+    font-family: horrorshow;    
+    font-size: 50px;
+    margin-left:500px
+   ;
+}
+
+ 
+@media screen and (max-width:800px) {
+    *{
+        margin: 0px;
+        padding: 0px;;
+    }
+   .loja{ margin-left:92px;
+    }
+    
+
+    .formulario > div:nth-child(1) {
+           font-size: 20px;
+           margin-left: 49px;           ;
+    }
+    span{
+        margin-left: 50px;
+    }
+
+
+     label, input{
+        margin-left: 33px;
+        ;
+     }
+ .titulo1{
+     font-size: 50px;
+   margin-left: -17px;
+  }
+
+  .titulo2{
+    margin-left: 126px;}
+    
+.avaliações{   
+
+    margin-top: 350px;
+}
+
+footer> p {
+    font-size: 10px;
+    margin-left: 31px;
+
+}
+.texto-sobre{
+    width: 80%;
+    font-size: 15px;
+    font-weight:200;
+    text-align: center;
+    height: 64px;
+    margin-top: -19px;
+
+}
+.botão{
+margin-left: -47px;
+font-size: 15px;
+}
+
+.titulo1{
+    font-size: 60px;
+    margin-left: 60px;
+}
+
+.titulo2{
+    font-size: 40px;
+    margin-top: 215px;
+
+}
+
+.sobre{
+    background-image: url(backgroundmobile.jpg);
+   
+}
+.formulario{
+    background-image: url(backgroundmobile2.jpg);
+}
+ .logo{
+    margin-left: 29px;
+    width: 550px;
+    
+
+ }
+.avaliações{
+
+ width: 100%;
+ height: 673px;
+}
+
+@media screen and (max-width: 1300px)  {
+.texto-sobre{
+   
+}
+
+}
+
+
+}
+
